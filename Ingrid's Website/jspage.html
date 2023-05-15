@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingrid's Website</title>
+    <link rel="stylesheet" href="css\mystylesheet.css">
+
+</head>
+
+<body>
+    <center>
+        <div class="pinkheader">
+            <div class="whiteheader">
+                <div class="headertext1">
+                    Client-Side programming</div>
+                <div class="headertext2">
+                    Continuous Assessment 1</div>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="button1"><a href="index.html"> HOME</a></div>
+                    <td>
+                        <div class="button1"><a href="htmlpage.html"> HTML</a></div>
+                    <td>
+                        <div class="button1"><a href="csspage.html"> CSS</a></div>
+                    <td>
+                        <div class="button1"><a href="jspage.html"> JAVACRIPT</a></div>
+                    <td>
+                        <div class="button1"><a href="aboutmepage.html"> ABOUT ME</a></div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="pinkbody"><br>
+            <div class="whitebody">
+                <div class="text">
+                    <h1>
+                        <p style="text-align:center;">Javascript: the Wizard
+                    </h1>
+                    </p>
+                    <p>JavaScript is a high-level programming language (closest to English than machine language) that
+                        utilizes the curly bracket as syntax "{ }". It lies alongside HTML and CSS and has the role to
+                        interact and study the user behaviour. It can collect data (that will be stored in a data
+                        center)
+                    </p>
+                    <p>On a Webpage it can be noticed as the action buttons, for example when you run widgets, open PDFs
+                        or enter a pin on a website. As a Javascript example, the following code will be demonstrated
+                        and transcripted:</p>
+
+
+                    <button onclick="myFunction()">Hide/ Show Stars</button>
+                    <div id="pinkborder">
+
+                        <center><img src="img\stars.png"></center>
+                    </div>
+
+                    <br><br>
+                    The Javascript code responsible for the responsiveness of this button is the following: <br>
+                    <div id="pinkborder">
+                        <code> <*body> <*script>
+                            function myFunction() {<br>
+                                var x = document.getElementById("pinkborder");<br>
+                                if (x.style.display === "none") {<br>
+                                    x.style.display = "block";<br>
+                                } else {<br>
+                                    x.style.display = "none";<br>
+                                }<br>
+                            }<br>
+                        <*/script><*/body><br></code>
+                    </div><br>
+                    And the HTML part is this:<br>
+                    <div id="pinkborder">
+
+                        <center>
+                            <code><*button onclick="myFunction()">Show Stars<*/button></code>
+                        </center>
+                    </div>
+                    <br><br>
+                    Another example is a print button: <button onclick="window.print()">Print this page</button> : That
+                    automatically open the print function of the browser
+                    <br>
+                    <div id="pinkborder">
+                        <code><center><*button onclick="window.print()">Print this page<*/button></center></code>
+
+                    </div>
+                    <br>
+                    Although logically Javascript is the hardest element in Web Programming to learn, because of all the
+                    logic and sometimes Maths involved, it is extremelly important to master this area and incorporate
+                    its
+                    elements to the website, otherwise the user interaction will be low or non existent.
+
+
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("pinkborder");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+
+
+
+        <link
+            href=" https://fonts.googleapis.com/css?family=Pacifico:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Amatic SC:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap"
+            rel="stylesheet">
+
+    </center>
+</body>
+
+
+
+</html>

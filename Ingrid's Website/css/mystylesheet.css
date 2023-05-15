@@ -1,0 +1,103 @@
+.pinkheader {
+    background-color: #faebf1;
+    border-radius: 25px;
+    width: 1000px;
+    padding: 50px 0 10px 0;
+    border: #fff solid 1px;
+}
+
+.whiteheader {
+    height: 120px;
+    width: 900px;
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 0 0 0;
+    border: #fff solid 1px;
+}
+
+.headertext1 {
+    font: 40px/150% pacifico;
+    letter-spacing: 3px;
+}
+
+.headertext2 {
+    font: 25px/150% amatic sc;
+    letter-spacing: 8px;
+}
+
+.button1 {
+    background-color: #d6c7e7;
+    transition-duration: 0.4s;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border: #fff solid 1px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.button1:hover {
+    background-color: #ffffd2;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.whitebody {
+    background-color: #fff;
+    transition-duration: 1.5s;
+    width: 900px;
+    height: fit-content;
+    border-radius: 8px;
+    border: #fff solid 1px;
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+    color: #555;
+    font-size: 18px;
+}
+
+.text {
+    color: #555;
+    font-size: 17px;
+    padding: 10px 100px 10px 100px;
+    text-transform: none;
+}
+
+.pinkbody {
+    background-color: #faebf1;
+    border: #ffeff5 solid 2px;
+    border-radius: 25px;
+    width: 996px;
+    height: fit-content;
+    padding: 0px 0px 20px 0px;
+}
+
+#pinkborder {
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border: 2px solid #ffeff5;
+}
+
+#t01 tr:nth-child(even) {
+    background-color: #ffeff5;
+}
+
+#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#t01 th {
+    background-color: #d6c7e7;
+    color: black;
+    width: 500px;
+}
